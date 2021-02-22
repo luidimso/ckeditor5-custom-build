@@ -13,6 +13,8 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
+import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
+import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
 
 class Editor extends ClassicEditor {}
 
@@ -27,7 +29,9 @@ Editor.builtinPlugins = [
 	Italic,
 	Paragraph,
 	Underline,
-	Emoji
+	Emoji,
+	EasyImage,
+	Base64UploadAdapter
 ];
 
 export default Editor;

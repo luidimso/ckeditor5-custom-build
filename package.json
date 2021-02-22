@@ -28,5 +28,9 @@
   },
   "scripts": {
     "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-easy-image": "^25.0.0",
+    "@ckeditor/ckeditor5-upload": "^25.0.0"
   }
 }
