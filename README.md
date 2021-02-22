@@ -9,7 +9,9 @@ Heading,
 Italic,
 Paragraph,
 Underline,
-Emoji
+Emoji,
+EasyImage,
+Base64UploadAdapter
 
 # CKEditor 5 editor generated with the online builder
 
