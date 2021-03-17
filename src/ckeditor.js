@@ -15,6 +15,7 @@ import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
+import Link from '@ckeditor/ckeditor5-link/src/link.js';
 
 class Editor extends ClassicEditor {}
 
@@ -31,7 +32,8 @@ Editor.builtinPlugins = [
 	Underline,
 	Emoji,
 	EasyImage,
-	Base64UploadAdapter
+	Base64UploadAdapter,
+	Link
 ];
 
 export default Editor;
