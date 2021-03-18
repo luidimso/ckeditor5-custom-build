@@ -12,7 +12,8 @@ Underline,
 Emoji,
 EasyImage,	
 Base64UploadAdapter,
-Link
+Link,
+MediaEmbed
 
 # CKEditor 5 editor generated with the online builder
 
