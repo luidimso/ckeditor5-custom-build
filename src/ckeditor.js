@@ -15,6 +15,7 @@ import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
+import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 
 class Editor extends ClassicEditor {}
 
@@ -31,7 +32,8 @@ Editor.builtinPlugins = [
 	Underline,
 	Emoji,
 	Link,
-	MediaEmbed
+	MediaEmbed,
+	EasyImage
 ];
 
 export default Editor;
